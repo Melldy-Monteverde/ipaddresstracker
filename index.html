@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <title>IP Geolocation</title>
+</head>
+
+<body>
+  <main class="container">
+    <h1>Simply IP geolocation tracker</h1>
+    <form id="form">
+      <label for="input">
+        User IP
+        <input id="input" type="text" placeholder="Enter the Ip here" required>
+      </label>
+      <small>Example: 54.85.132.205</small>
+      <section id="invalidError"></section>
+      <button id="bntSubmit" type="submit">Search for information on this ip</button>
+    </form>
+
+    <section>
+      <pre id="results"></pre>
+    </section>
+  </main>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
