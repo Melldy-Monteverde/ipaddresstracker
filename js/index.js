@@ -22,7 +22,7 @@ _form.addEventListener('submit', async (e) => {
   if (!value) return
   if (!ipPatter.test(value)) {
     _invalidError.style.color = 'red'
-    _invalidError.innerText = 'Please insert a valid IP adress'
+    _invalidError.innerText = 'Please insert a valid IP address'
   }
 
   _btnSubmit.setAttribute('disabled', '')
